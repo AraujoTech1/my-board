@@ -28,12 +28,6 @@ Cada card pode ser clicado para alternar seu estado visual, indicando que foi se
 - Todos os testes de exibição passaram, com as colunas e cards aparecendo corretamente na tela.
 - O efeito de hover nos cards funciona como esperado, mudando a cor ao passar o mouse.
 
-### Imagem do Teste
-
-Captura de tela demonstrando o resultado do efeito de **hover** nos cards:
-
-![Teste de Hover](images/teste-hover.png)
-
 ## **Tecnologias Utilizadas**
 
 ![HTML Badge](https://img.shields.io/badge/HTML-5-red?logo=html5&logoColor=white)
