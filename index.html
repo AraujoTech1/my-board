@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanban Board</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="board">
+        <div class="column" id="todo">
+            <h2>To Do</h2>
+            <div class="card" onclick="toggleCardSelection(this)">
+                <h3>Card 1</h3>
+                <p>Descrição da tarefa 1</p>
+            </div>
+            <div class="card" onclick="toggleCardSelection(this)">
+                <h3>Card 2</h3>
+                <p>Descrição da tarefa 2</p>
+            </div>
+        </div>
+        <div class="column" id="in-progress">
+            <h2>In Progress</h2>
+            <div class="card" onclick="toggleCardSelection(this)">
+                <h3>Card 3</h3>
+                <p>Descrição da tarefa 3</p>
+            </div>
+        </div>
+        <div class="column" id="done">
+            <h2>Done</h2>
+            <div class="card" onclick="toggleCardSelection(this)">
+                <h3>Card 4</h3>
+                <p>Descrição da tarefa 4</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Função para alternar o estado de seleção do card
+        function toggleCardSelection(card) {
+            card.classList.toggle("selected");
+        }
+    </script>
+</body>
+</html>
