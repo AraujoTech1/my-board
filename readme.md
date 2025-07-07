@@ -1,6 +1,6 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="150" height="150"/>
-  <h1> Meu Board - Kanban Board</h1>
+  <h1> Meu Board Kanban </h1>
  <p>
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="20" height="20"/> Java 23
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/maven/maven-original.svg" width="20" height="20" style="margin-left: 10px"/> Maven 3.9.6
